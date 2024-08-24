@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgba(255, 115, 0, 0.973);
+    color: black;
+  }
+  .logo{
+    padding: 14px;
+    height: 10px;
+    float: right;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 115, 0, 0.973);
+
+  }
+  .container{
+   width: 80%;
+   margin: 50px auto;
+  }
+  .contact-box{
+    display: flex;
+  }
+  .contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+  }
+  .contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+  }
+  h1{
+    margin-bottom: 10px;
+  }
+  .container p{
+    margin-bottom: 40px;
+  }
+  .input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .input-row .input-group{
+    flex-basis: 45%;
+  }
+  input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+  }
+  textarea{
+    width: 100%;
+    border: 1px solid;
+  }
+  label{
+    margin-bottom: 6px;
+    display: block;
+  }
+  button{
+    width: 100px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 115, 0, 0.973);
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgb(28,0,181,0.3);
+  }
+  .contact-left h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  tr rd:first-child{
+    padding-right: 20ox;
+  }
+  tr td{
+    padding-top: 20px;
+  }
+  .footer-container{
+  background-color: black;
+  padding-bottom: 4rem;
+  }
+  .footer{
+    width: 80%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .footer-heading{
+  text-align: center;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  } 
+  .footer-container{
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .footer-container a {
+    text-align: center;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .footer-container a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .footer-container a.active {
+    background-color:  rgba(255, 115, 0, 0.973);
+    color: black;
+  }
