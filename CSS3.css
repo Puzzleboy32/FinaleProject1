@@ -125,3 +125,19 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   background-color:  rgba(255, 115, 0, 0.973);
   color: black;
 }
+#countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(255, 115, 0, 0.973);
+}
+
+#countdown div {
+  margin: 0 10px;
+}
+
+#countdown span {
+  margin: 0 5px;
+}
