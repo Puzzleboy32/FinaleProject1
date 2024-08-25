@@ -3,12 +3,13 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   h2{
-    transform: translate(400px);
+    text-align: center;
    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
+    text-align: center;
   }
   .topnav {
     overflow: hidden;
@@ -69,7 +70,7 @@ body {
   flex: 1;
   height: auto;
   display: block;
-transform: translateX(400px);
+  transform: translateX(900px);
 
 }
 .about-image img{
@@ -77,6 +78,10 @@ transform: translateX(400px);
   height: auto;
   display: block;
   transition: 10 ease;
+}
+
+.time{
+  text-align: center;
 }
 *{
   padding: 0;
@@ -102,29 +107,6 @@ text-align: center;
 font-size: x-large;
 font-family: Georgia, 'Times New Roman', Times, serif;
 } 
-.footer-container{
-  overflow: hidden;
-  background-color: black;
-}
-
-.footer-container a {
-  text-align: center;
-  color: #f2f2f2;
-  text-align: right;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 24px;
-}
-
-.footer-container a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.footer-container a.active {
-  background-color:  rgba(255, 115, 0, 0.973);
-  color: black;
-}
 #countdown {
   display: flex;
   justify-content: center;

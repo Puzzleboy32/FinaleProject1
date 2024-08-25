@@ -1,4 +1,5 @@
-.topnav {
+/* This is Nav */
+  .topnav {
     overflow: hidden;
     background-color: black;
   }
@@ -18,7 +19,7 @@
   }
   
   .topnav a.active {
-    background-color:  rgba(255, 115, 0, 0.973);
+    background-color: rgba(255, 115, 0, 0.973);
     color: black;
   }
   .logo{
@@ -31,24 +32,30 @@
     color: rgba(255, 115, 0, 0.973);
 
   }
-body {
-    text-align: center;
-    font-family: Arial, sans-serif;
+  /* This is for my video size */
+.video-container {
+    position: relative;
 }
 
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    cursor: pointer;
+video {
+    width: 100%;
+    height: 300px;
 }
 
-#result {
-    margin-top: 20px;
-    font-size: 18px;
+.scrollable-sections {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
 }
+
+.section {
+    padding: 20px;
+    color: white;
+}
+/* This is my footer */
 .footer-container{
     background-color: black;
     padding-bottom: 4rem;
